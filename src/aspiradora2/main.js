@@ -3,7 +3,7 @@ const CleanerAgent = require('./CleanerAgent');
 
 let myProblem = new CleanerProblem({ maxIterations: 12 });
 
-myProblem.addAgent("Roomba", CleanerAgent, { pos: 1 });
+myProblem.addAgent("Roomba", CleanerAgent, { pos: 0 });
 myProblem.solve([1, 1], {
     onFinish: (result) => {
         let agentID = result.actions[result.actions.length - 1].agentID;
