@@ -9,7 +9,7 @@ class CleanerAgent extends Agent {
         super(value);
         //LEFT, UP, RIGHT, DOWN, CELL
         this.table = {
-           //L,U,R,D 
+            //L,U,R,D 
             "1,0,1,0,0": "UP",
             "1,1,0,0,0": "RIGHT",
             "0,1,0,1,0": "RIGHT",
